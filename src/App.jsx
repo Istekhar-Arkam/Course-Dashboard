@@ -1,12 +1,12 @@
+import React from "react"
+import Dashboard from "./Components/Dashboard";
 
 function App() {
- 
-
   return (
     <>
-   <h1 className="text-red-500 font-bold">sonu</h1>
+    <Dashboard/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
